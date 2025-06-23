@@ -1,0 +1,216 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+body {
+    height: 100vh;
+    width: 100vw;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: black;
+    color: white;
+    font-size: 20px;
+}
+
+main {
+    margin-bottom: 20%;
+}
+
+h2 {
+    color: #60a5fa;
+}
+
+hr {
+    border: 1.5px solid #60a5fa;
+    margin-top: 15px;
+}
+
+header {
+    background-color: rgb(4, 4, 89);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1rem 0.5rem;
+    flex-wrap: wrap;
+    z-index: 1000;
+    color: white;
+    font-weight: 500;
+}
+
+/* nav a {
+    font-size: 24px;
+} */
+
+button {
+    padding: 10px;
+    border-radius: 10px;
+    color: white;
+    background-color: rgb(28, 28, 206);
+    border: none;
+    margin: 5px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: large;
+}
+
+.logo {
+    margin-left: 20px;
+    font-size: 30px;
+}
+
+
+.btn {
+    background-color: rgb(4, 4, 89);
+}
+
+.container {
+    margin-left: 20%;
+    margin-right: 20%;
+    margin-top: 40px;
+}
+
+.about {
+    display: flex;
+    gap: 3rem;
+    align-items: center;
+    box-sizing: border-box;
+    margin-top: 15%;
+}
+
+.about img {
+    border-radius: 50%;
+    border: 2px solid #60a5fa;
+}
+
+.skills {
+    margin-top: 5%;
+}
+
+#skillTitle {
+    color: #60a5fa;
+    font-weight: 700;
+}
+
+.skills-list {
+    margin-top: 20px;
+    display: flex;
+    flex-wrap: wrap;
+    /* gap: 1rem 2rem; */
+    gap: 1rem;
+    justify-content: space-between;
+    /* max-width: 680px; */
+}
+
+.list-item {
+    background-color: #1f2937;
+    padding: 0.5rem 1.1rem;
+    width: 30%;
+    cursor: pointer;
+
+}
+
+.list-item:hover {
+    transform: scale(1.1);
+    background-color: #657387;
+}
+
+.projects {
+    display: flex;
+    flex-wrap: wrap;
+    margin: auto;
+    gap: 25px;
+    /* display: flex; */
+}
+
+.projectTitlesec {
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.project-item {
+    background-color: #1f2937;
+    color: white;
+    padding: 20px;
+    text-align: left;
+    border-radius: 8px;
+    flex: 1 1 calc(50% - 15px);
+    box-sizing: border-box;
+}
+
+.links {
+    margin: 10px 0;
+}
+
+a {
+    text-decoration: none;
+    color: white;
+    margin-right: 20px;
+}
+
+.contact {
+    margin-top: 20px;
+    background-color: #1f2937;
+    /* width: 100%; */
+    padding: 10px;
+    margin: 20px 15%;
+}
+
+.contact h2 {
+    margin-left: 1rem;
+    margin-bottom: 1.5rem;
+}
+
+.contact-form {
+    display: flex;
+    justify-content: start;
+    margin-top: 20px;
+}
+
+.contact form {
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+}
+
+.contact input,
+textarea {
+    padding: 0.65rem 0.85rem;
+    border: 1px solid #374151;
+    background-color: black;
+}
+
+
+/* .contact-form {
+    margin-left: 20%;
+}
+
+.contact-form input[type="text"],
+input[type="email"] {
+    width: 100%;
+    padding: 20px;
+    margin: 15px 0;
+    border-radius: 5px;
+    border: none;
+    background-color: #111827;
+    color: white;
+}
+
+.contact-form input[type="message"] {
+    width: 100%;
+    padding: 10px;
+    margin: 10px 0 20px 0;
+    border-radius: 5px;
+    border: none;
+    background-color: #111827;
+    color: white;
+    resize: vertical;
+}
+
+.contact-form button {
+    width: 100%;
+    font-size: 20px;
+}
+
+.contact-form button:hover {
+    background-color: #1f2b46;
+} */
